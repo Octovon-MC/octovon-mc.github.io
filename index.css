@@ -1,0 +1,30 @@
+#root {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: #145642 solid 0.5em;
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#root > * {
+    margin: 1rem;
+    font-family: monospace;
+    font-size: xxx-medium;
+    color: #145642;
+}
+
+#root > img {
+    display: block;
+    height: 10vh;
+    width: auto;
+}
+
+#root {
+    min-width: fit-content;
+}
